@@ -1,0 +1,26 @@
+body{
+    background: greenyellow;
+    text-align: center;
+}
+
+form{
+    margin-top: 24px;
+    padding: 12px;
+}
+
+input,select{
+    margin: 14px;
+}
+
+h3{
+    color: orangered;
+}
+
+button{
+    padding: 10px 23px;
+    background: orange;
+    color: white;
+    border-radius: 14px;
+    border-color: white;
+    font-size: 23px;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE students SYSTEM "student.dtd">
+<?xml-stylesheet type="text/xsl" href="student.xslt"?>
+<students
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="students.xsd">
+	<student>
+		<name>Aman Kumar</name>
+		<rollno>22/11/EC/035</rollno>
+		<department>Computer Science</department>
+		<year>2022</year>
+		<university>Jawaharlal Nehru University</university>
+	</student>
+	<student>
+		<name>Aman Kumar</name>
+		<rollno>22/11/EC/035</rollno>
+		<department>Computer Science</department>
+		<year>2022</year>
+		<university>Jawaharlal Nehru University</university>
+	</student>
+</students>

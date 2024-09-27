@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <form action="post">
+      <h3>Personal Details</h3>
+      <label for="name">Name : </label>
+      <input type="text" id="name" />
+      <br />
+
+      <label for="password">Password : </label>
+      <input type="password" name="password" id="password" />
+      <br />
+
+      <label for="email">Email : </label>
+      <input type="email" name="email" id="email" />
+      <br />
+
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <br />
+
+      <label for="contact">Contact# : </label>
+      <input type="text" name="contact" id="contact" />
+      <br />
+
+      <h3>Education Qualification</h3>
+      
+      <label for="degree">Degree :</label>
+      <select name="degree" id="degree">
+        <option value="default">--Select Group--</option>
+        <option value="d1">Bachelors</option>
+        <option value="d2">Master</option>
+      </select>
+      <br>
+
+      <label for="eng">Engineering :</label>
+      <select name="eng" id="eng">
+        <option value="default">--Select Group--</option>
+        <option value="o1">Computer Science</option>
+        <option value="o2">Electronics</option>
+        <option value="o3">Civil</option>
+        <option value="o2">Mechanical</option>
+
+      </select>
+      <br>
+
+      <label for="hobbies">Hobbies : </label>
+      <input type="checkbox" name="h1" id="h1">
+      <label for="h1">Playing Chess</label>
+
+      <input type="checkbox" name="h2" id="h2">
+      <label for="h2">Reading</label>
+      <br />
+
+      <h3>Address</h3>
+      <textarea name="address" id="address"></textarea>
+      <br>
+
+      <label for="attachment">Attachment</label>
+      <input type="file" name="attachment" id="attachment">
+      <br>
+
+      <button type="submit">Submit  <i class="fa-solid fa-arrow-right"></i></button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+<!ELEMENT students (student+)>
+<!ELEMENT student (name, rollno, department, year, university)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT rollno (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT university (#PCDATA)>
